@@ -1,0 +1,479 @@
+@import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
+body {
+  background-color: #070d18;
+  width: auto;
+  padding: 0 3em 94px 2.5em;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 1/8;
+  grid-row: 1/2;
+}
+
+.logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  padding: 0.3em 0em 0em 0em;
+}
+
+.edisnlogo {
+  width: 44px;
+  height: 44px;
+}
+
+.edisn {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 22px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  align-self: center;
+  padding-left: 2.5em;
+}
+
+.espn-wrapper {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  overflow: hidden;
+  color: #85859b;
+  align-content: center;
+  font-family: Inter;
+  justify-self: end;
+  padding: 0.9em 0.5em 0em 0em;
+}
+
+.e1 {
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0.3em;
+}
+
+.e2 {
+  float: right;
+  align-self: center;
+}
+
+.espnlogo {
+  width: 58px;
+  height: 26px;
+  border-radius: 5px;
+  align-self: center;
+  justify-self: end;
+}
+
+.e3 {
+  float: right;
+}
+
+.down-arrow {
+  width: 12px;
+  height: 6px;
+}
+
+.back-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  padding-top: 1em;
+}
+
+.backarrow {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.back {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-family: Inter;
+  font-size: 14px;
+  color: #b9b9c8;
+  padding-left: 1.5em;
+}
+
+.rectangle-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 6/8;
+  grid-row: 3/4;
+  border: dashed 2px #979797;
+  width: 80%;
+  height: 90%;
+  border-radius: 5px;
+  justify-self: flex-end;
+  margin: 0.5em 0em 0.5em 0em;
+  font-family: Inter;
+}
+
+.p1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.p2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 13px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+}
+
+.p3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  color: #85859b;
+}
+
+.upload-wrapper {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  border: none;
+  justify-self: center;
+  padding: 0em 2em 0em 2em;
+  border-radius: 5px;
+  background-color: rgba(93, 219, 238, 0.1);
+  text-align: center;
+  color: #5ddbee;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 1/4;
+  grid-row: 3/4;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.content1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #ffffff;
+  align-self: flex-end;
+  padding-bottom: 0.5em;
+  font-size: 16px;
+}
+
+.content2 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-size: 28px;
+  padding: 0em 0em 0.5em 0em;
+  color: #ffffff;
+  align-self: center;
+  border-bottom: 1px solid #44445a;
+}
+
+.group {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: end;
+  align-self: center;
+  padding-bottom: 0.5em;
+}
+
+.content3 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  font-size: 14px;
+  color: #85859b;
+  text-align: justify;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(5em, auto));
+  grid-column: 1/8;
+  grid-row: 4/5;
+  border-radius: 10px;
+  background-color: #0e192d;
+  padding: 1em 1em 1em 1.5em;
+  margin: 1em 0em 2em 0em;
+}
+
+.details > div {
+  font-family: Inter;
+}
+.details > div h1 {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #85859b;
+}
+.details > div div {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, auto));
+  grid-column: 1/8;
+  grid-row: 5/6;
+  grid-gap: 1em;
+  margin-top: 1em;
+}
+
+.navbar > div {
+  border-radius: 50px;
+  margin: 0em 1em 1.5em 0em;
+  background-color: rgba(133, 133, 155, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 14px;
+  padding: 1em 0em 1em 0em;
+}
+.navbar > div img {
+  height: auto;
+  width: auto;
+  margin-right: 0.5em;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+}
+.navbar > div div {
+  float: right;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: start;
+  color: #85859b;
+  padding: 0em 0em 0em 0em;
+}
+
+.nav2::after {
+  position: absolute;
+  content: "";
+  border-top: solid 15px rgba(133, 133, 155, 0.1);
+  border-left: solid 9px transparent;
+  border-right: solid 15px transparent;
+  top: 100%;
+  left: 50%;
+}
+
+.players-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 1/8;
+  grid-row: 6/7;
+  width: 100%;
+  height: 100%;
+  background-color: #0e192d;
+  border-radius: 10px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: none;
+  border-radius: 5px;
+  background-color: #091222;
+  height: 40%;
+  width: max-content;
+  margin: 2em 0em 0em 2em;
+}
+.search-bar img {
+  padding: 0em 1em 0em 1em;
+  align-self: center;
+}
+.search-bar p {
+  justify-content: left;
+  align-self: center;
+  text-align: left;
+  padding: 0em 5em 0em 0em;
+  font-family: Inter;
+  font-size: 12px;
+  color: #85859b;
+  font-weight: normal;
+}
+
+.add-team {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  grid-column: 8/9;
+  grid-row: 1/2;
+  border: none;
+  justify-content: flex-end;
+  margin: 1em 2em 0em 0em;
+  padding: 0em 0em 0em 0em;
+}
+.add-team img {
+  padding: 1em 1em 0em 0em;
+  align-self: flex-start;
+  justify-self: self-end;
+}
+.add-team p {
+  padding: 0.3em 0em 0em 0em;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5ddbee;
+  text-align: right;
+}
+
+.border {
+  grid-column: 1/9;
+  grid-row: 2/3;
+  height: 2%;
+  background-color: #44445a;
+  margin: 0em 2em 0em 2em;
+}
+
+.sort {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 1/9;
+  grid-row: 3/4;
+}
+
+.s1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: Inter;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0em 0em 0em 2em;
+}
+
+.s2 {
+  text-align: end;
+  justify-content: end;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  float: right;
+  font-family: Inter;
+  font-size: 14px;
+  color: #ffffff;
+  padding-right: 2em;
+}
+
+.s3 {
+  color: #85859b;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.team-player1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, auto));
+  grid-template-rows: repeat(auto-fill, minmax(12em, auto));
+  grid-column: 1/9;
+  grid-row: 4/5;
+  grid-gap: 2em;
+  justify-content: center;
+  padding: 1em 2em 1em 2em;
+  margin-bottom: 1em;
+}
+
+.team-player1 > div {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c2b47;
+  align-items: center;
+  text-align: center;
+}
+
+.outline {
+  margin: 1em 0em 0em 0em;
+  justify-self: center;
+  text-align: center;
+  width: 63px;
+  height: 63px;
+  opacity: 0.7;
+  box-shadow: -8.9px 6.4px 10.2px -1px rgba(0, 0, 0, 0.03);
+  border-radius: 50%;
+  border-width: 1px;
+  border-image-source: linear-gradient(to top, #a4b3bd, #a4b3bd, #a4b3bd, #ffffff, #ffffff);
+  border-image-slice: 1;
+  background-image: linear-gradient(to top, #fdfdfd, #fdfdfd, #d0d0d0);
+}
+
+.logo1 {
+  text-align: center;
+  width: 2em;
+  height: 3.5em;
+}
+
+.team-name {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  color: #85859b;
+}
+
+.name2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.play1 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  color: #b9b9c8;
+}
+
+.reset {
+  grid-column: 8/9;
+  justify-self: end;
+  padding: 1em 2em 1em 0em;
+}
+
+.r1 {
+  float: right;
+  padding: 0em 0em 0em 1em;
+  color: #5ddbee;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
