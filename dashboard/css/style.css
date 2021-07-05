@@ -1,0 +1,326 @@
+@import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
+body {
+  background-color: #070d18;
+  width: auto;
+  height: auto;
+  padding: 0 3em 94px 2.5em;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-template-areas: "header header header header header header" "back back back back";
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 1/8;
+  grid-row: 1/2;
+}
+
+.logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  padding: 0.3em 0em 0em 0em;
+}
+
+.edisnlogo {
+  width: 44px;
+  height: 44px;
+}
+
+.edisn {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 22px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  align-self: center;
+  padding-left: 2.5em;
+}
+
+.espn-wrapper {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  overflow: hidden;
+  color: #85859b;
+  align-content: center;
+  font-family: Inter;
+  justify-self: end;
+  padding: 0.9em 0.5em 0em 0em;
+}
+
+.e1 {
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0.3em;
+}
+
+.e2 {
+  float: right;
+  align-self: center;
+}
+
+.espnlogo {
+  width: 58px;
+  height: 26px;
+  border-radius: 5px;
+  align-self: center;
+  justify-self: end;
+}
+
+.e3 {
+  float: right;
+}
+
+.down-arrow {
+  width: 12px;
+  height: 6px;
+}
+
+.back-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  padding-top: 1em;
+}
+
+.backarrow {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.back {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-family: Inter;
+  font-size: 14px;
+  color: #b9b9c8;
+  padding-left: 1.5em;
+}
+
+.rectangle-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 6/8;
+  grid-row: 3/4;
+  border: dashed 2px #979797;
+  width: 80%;
+  height: 90%;
+  border-radius: 5px;
+  justify-self: flex-end;
+  margin: 0.5em 0em 0.5em 0em;
+  font-family: Inter;
+}
+
+.p1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.p2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 13px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+}
+
+.p3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  color: #85859b;
+}
+
+.upload-wrapper {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  border: none;
+  justify-self: center;
+  padding: 0em 2em 0em 2em;
+  border-radius: 5px;
+  background-color: rgba(93, 219, 238, 0.1);
+  text-align: center;
+  color: #5ddbee;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-column: 1/4;
+  grid-row: 3/4;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.content1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #ffffff;
+  align-self: flex-end;
+  padding-bottom: 0.5em;
+  font-size: 16px;
+}
+
+.content2 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-size: 28px;
+  padding: 0em 0em 0.5em 0em;
+  color: #ffffff;
+  align-self: center;
+  border-bottom: 1px solid #44445a;
+}
+
+.group {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: end;
+  align-self: center;
+  padding-bottom: 0.5em;
+}
+
+.content3 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  font-size: 14px;
+  color: #85859b;
+  text-align: justify;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, auto));
+  grid-column: 1/8;
+  grid-row: 4/5;
+  grid-gap: 1em;
+  margin-top: 1em;
+}
+
+.navbar > div {
+  border-radius: 50px;
+  margin: 0em 1em 1.5em 0em;
+  background-color: rgba(133, 133, 155, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 14px;
+  padding: 0em 0em 0em 0em;
+}
+.navbar > div img {
+  height: auto;
+  width: auto;
+  margin-right: 0.5em;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+  padding: 0em 0em 0em 0em;
+}
+.navbar > div p {
+  float: right;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: start;
+  color: #85859b;
+  padding: 0em 0em 0em 0em;
+}
+
+.players-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(10em, auto));
+  grid-column: 1/8;
+  grid-row: 5/6;
+  width: 100%;
+  height: 100%;
+  background-color: #0e192d;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.group-1375 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
+  padding: 1em 0em 1em 0em;
+}
+
+.add-1 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.add-2 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #85859b;
+  padding: 0em 10em 0em 10em;
+}
+
+.add-team {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  border: none;
+  justify-self: center;
+  background-color: rgba(93, 219, 238, 0.1);
+  border-radius: 5px;
+  margin: 1em 0em 2em 0em;
+}
+
+.add-sign {
+  padding: 1em 0em 0em 1em;
+  align-self: center;
+}
+
+.add {
+  float: right;
+  padding: 1em;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5ddbee;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
